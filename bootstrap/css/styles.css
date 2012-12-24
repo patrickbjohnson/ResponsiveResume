@@ -1,0 +1,104 @@
+
+
+a:link {
+	color: #000;
+	text-decoration: none;
+	}      /* unvisited link */
+
+a:visited {
+	color:#000;
+	text-decoration: none
+	}  /* visited link */
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+
+	}  /* mouse over link */
+
+a:active {
+	color:#000;
+	text-decoration: none
+	}  /* selected link */
+
+
+
+
+h3 > a:link, .nav li a{
+	border-bottom: 1px dotted #000;
+	
+}
+
+.section-header h2{
+	font-size: 32px;
+	margin: 15px 0 20px;
+	padding: 0 0 5px 0;
+	border-bottom: 1px solid #eee;
+}
+
+
+.date > h4 {
+	float: right;
+	text-align: right;
+}
+
+
+.honors-and-skills {
+	padding-bottom: 25px;
+}
+
+.honors-and-skills li {
+	list-style-type: none;
+}
+
+.skills li {
+	list-style-type:none;
+}
+
+
+/* Media Queries */
+
+
+
+@media (min-width: 768px) and (max-width: 481px) {
+	
+.date > h4 {
+	float: right;
+	text-align: right;
+}
+
+
+
+
+
+} /* End of media query */
+
+@media (max-width: 480px) {
+
+.date > h4 {
+	float: left;
+	text-align: right;
+}
+
+.job-title > h4 {
+	line-height: normal;
+}
+
+.name {
+	text-align: center;
+}
+
+.nav  {
+	text-align: center;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-family: inherit;
+	color: #ffffff;
+}
+
+
+}/* End of media query */
+
